@@ -1,0 +1,347 @@
+/*
+Theme Name: Beirut Child
+Theme URI: http://asianitbd.com/wp/beirut/
+Template: beirut
+Author: Template_path
+Author URI: http://themeforest.net/user/tonatheme
+Description: This is Beirut Finance HTML Template theme
+Tags: one-column,two-columns,right-sidebar,custom-header,custom-menu,editor-style,featured-images,rtl-language-support,sticky-post,translation-ready,microformats
+Version: 1.0.0.1506415822
+Updated: 2017-09-26 16:50:22
+
+*/
+
+/* HEADER */
+.main-header {
+    position: absolute;
+}
+.main-header > .header-upper {
+    display: none;
+}
+.main-header.style-two .header-lower {
+    background-color: transparent;
+}
+.main-menu .navigation > li > a {
+    color: #1c1c1c;
+}
+.main-menu .navigation > li:hover > a, .main-menu .navigation > li.current > a, .main-menu .navigation > li.current-menu-item > a {
+    color: #f7542b;
+}
+.img-responsive img{
+    height: 30px;
+}
+.logo img {
+    height: 100px;
+    margin-right: 19px;
+}
+@media only screen and (max-width: 767px)
+.main-menu .navbar-collapse > .navigation > li:hover > a, .main-menu .navbar-collapse > .navigation > li > ul > li:hover > a, .main-menu .navbar-collapse > .navigation > li > ul > li > ul > li:hover > a, .main-menu .navbar-collapse > .navigation > li.current > a, .main-menu .navbar-collapse > .navigation > li.current-menu-item > a {
+    background: #1c1c1c;
+    color: #f7542b !important;
+}
+@media only screen and (max-width: 767px)
+.main-menu .navbar-collapse > .navigation > li > a {
+    color: #f7542b;
+    background: #1c1c1c;
+}
+#rev_slider_1_1 {
+    opacity: 0.86;
+}
+.sticky-header {
+    background: rgba(255,255,255,.4);
+}
+.sticky-header .main-menu .navigation > li:hover > a, .sticky-header .main-menu .navigation > li.current > a, .sticky-header .main-menu .navigation > li.current-menu-item > a {
+    color: #f7542b;
+    opacity: 1;
+    background-color: transparent;
+}
+
+/* REVOLUTION SLIDER */
+
+.sidebar-page-container {
+	padding: 0 0 90px;
+	position: absolute;
+}
+
+.home-para-container {
+	margin: 30px 15em;
+    font-size: 18px;
+    text-align: justify;
+}
+
+/* THE PROJECT CONTENT */
+.the-project {
+	font-size: 15px;
+	}
+
+h1.the-project-header {
+	font-size: 40px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	position: relative;
+	bottom: 25px;
+}
+h4.the-project-subheader {
+	color: #d6e621;
+    font-weight: bold;
+}
+
+p.the-project-para {
+	font-size: 14px;
+	line-height: 27px;
+}
+
+h1#countdown-number {
+	font-size: 100px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	margin-top: 12.2rem;
+	position: relative;
+	left: 100px;
+}
+
+h3.countdown-para {
+	position: relative;
+    left: 12em;
+    top: -5em;
+    line-height: 25px;
+}
+
+.countdown-border {
+	width: 19.15rem;
+    height: 18.15rem;
+    border: 6px solid #cee002;
+    position: absolute;
+    top: 46em;
+    left: 29.1em;
+}
+
+/* FEATURE CONTENT */
+.feature-heading {
+	font-size: 35px;
+    font-weight: 600;
+}
+
+/* FEATURE CAROUSEL */
+
+
+/* DOT IMAGE */
+.homepage-firstcontent{
+	margin-top: 25px;
+}
+
+.dots-image img {
+    display: block;
+    position: relative;
+    z-index: 1;
+    margin-top: 150px;
+	width: auto;
+	height: auto;
+	
+}
+
+#dots {
+	background-image: url("http://localhost:84/88thavenuebeirut/wp-content/uploads/2017/10/dots.png");
+    position: absolute;
+    left: -13.5%;
+    bottom: -15%;
+    width: 470px;
+    height: 57.2%;
+}
+
+.col-md-7 .col-md-offset-1{
+	left: 20px;
+}
+
+/* Footer */
+
+.footer-bottom{
+	display:none;
+}
+
+.wpb_wrapper{
+ 	color: #000;
+    line-height: 1.71;
+    
+}
+
+.footer {
+    color: #000;
+    line-height: 1.71;
+    max-width: 1800px;
+    max-height: 440px;
+}
+
+margin-top: -4rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: space-between;
+    justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+
+@media (min-width: 1200px)
+.footer-flex .flex-item {
+    -webkit-box-flex: none;
+    -webkit-flex: none;
+    -ms-flex: none;
+    flex: none;
+}
+
+@media (min-width: 768px)
+.footer-flex .flex-item {
+    -webkit-flex: 0 0 33.3333%;
+    -ms-flex: 0 0 33.3333%;
+    flex: 0 0 33.3333%;
+}
+
+.footer-flex .flex-item {
+    margin-top: 4rem;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+	
+}
+
+.inline-block{
+	float: left;
+}
+
+.brand {
+    font-size: 1.875px;
+	line-height: 1.6;
+    color: #000;
+    display: inline-block;
+	display:flex;
+}
+
+.brand img {
+	width: 40px;
+	height: 40px;
+}
+
+.brand-info{
+	margin-top: 5px;
+    float: left;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-left {
+    float: left!important;
+}
+
+a {
+    color: #000000;
+    -webkit-transition: color .3s ease-out;
+    -o-transition: color .3s ease-out;
+    transition: color .3s ease-out;
+}
+
+a:hover{
+	color: #cee002;
+}
+
+.brand img {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: .65rem;
+    height: 40px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+	border: 0;
+}
+
+.brand-info {
+    display: inline-block;
+}
+
+.brand-info {
+    display: inline-block;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.brand-name {
+    font-weight: 600;
+    font-size: 1.714rem;
+    line-height: 1;
+}
+
+.brand-name {
+    font-weight: 600;
+    font-size: 1.714rem;
+    line-height: 1;
+}
+
+.brand-text {
+    color: #999999;
+    font-size: .857rem;
+    font-weight: 300;
+    margin-top: -.3rem;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+ul li {
+	text-align: left !important;
+}
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.social-list {
+ 	display: flex;
+    white-space: nowrap;
+	/* width: 2.428rem; */
+}brand-info
+
+.social-list a:first-child {
+    margin-left: 0;
+}
+
+.social-list a {
+    display: inline-block;
+    font-size: 1.428rem;
+    line-height: 1;
+    color: #000;
+    margin-left: 2rem;
+}
+
+.icon img{
+	width: 24px;
+}
